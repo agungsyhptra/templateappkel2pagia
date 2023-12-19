@@ -12,21 +12,7 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-            <div class="container">
-                <a class="navbar-brand" href="#">VIGGO</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
-                    aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarsExample04">
-                    <ul class="navbar-nav mr-auto">
-                    </ul>
-                    <button type="button" class="btn btn-light">Admin</button>
-                </div>
-            </div>
-        </nav>
+        <?php include "layout/header.php"?>
     </header>
 
     <main role="main">
@@ -87,12 +73,7 @@
     </main>
 
     <footer class="text-muted">
-        <div class="container">
-            <p class="float-right">
-                <a href="#">Back to top</a>
-            </p>
-            <p>Album example is © Bootstrap, but please download and customize it for yourself!</p>
-        </div>
+        <?php include "layout/footer.php"?>
     </footer>
 
 
